@@ -1,0 +1,15 @@
+{
+    "name": "mysite",
+    "main": "index.ts",
+    "devDependencies": {
+        "@pulumi/aws": "^6.75.0",
+        "@pulumi/pulumi": "^3.160.0",
+        "@types/mime-types": "^2.1.4",
+        "@types/node": "^18",
+        "mime-types": "^3.0.1",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/awsx": "^2.0.2"
+    }
+}

@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <div class="container">
+    <h1>{{ .Site.Title }}</h1>
+    <p>Welcome to my Hugo site!</p>
+    <h2>Recent Posts</h2>
+    <ul>
+      {{ range first 5 (where .Site.RegularPages "Section" "posts") }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <small>{{ .Date.Format "January 2, 2006" }}</small>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
