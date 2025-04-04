@@ -49,7 +49,8 @@ Before starting, ensure you have the following:
       ],
       "Resource": "arn:aws:s3:::site-bucket-*"
   }
-```
+  ```
+
 - Pulumi CLI: Install it following the official guide.
 
 - Node.js: Version 16 or higher (I used v20.12.2). Download from Node.js.
